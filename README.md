@@ -1,2 +1,2 @@
-# NodewithFastify
-Sample Node App with Fastify
+# MongoExpressNodeSample
+Sample repo to quickstart Mongo with Express and NodeJS

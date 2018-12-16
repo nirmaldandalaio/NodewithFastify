@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>My Sample App</h1>
+        <form>
+            <div class="form-group mb-3" style="width: 35%; background: #c2c2c2; padding: 10px; margin: 10px; border: 2px solid #000">
+                <h4>Create User</h4>
+                <p><input id="username" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"></p><br/>
+                <p><input id="email" type="text" class="form-control" placeholder="Recipient's Email" aria-label="Recipient's Email" aria-describedby="basic-addon2"></p><br/>
+                <p><button id="createUserBtn" class="btn btn-primary" type="button">Create User</button></p><br/>
+            </div>
+            <div class="form-group mb-3" style="width: 35%; background: #c2c2c2; padding: 10px; margin: 10px; border: 2px solid #000">
+                    <h4>Create Group</h4>
+                    <p><input id="group-name" type="text" class="form-control" placeholder="Group name" aria-label="Group name" aria-describedby="basic-addon2"></p><br/>
+                    <p><input id="group-members" type="text" class="form-control" placeholder="Group members" aria-label="Group members" aria-describedby="basic-addon2"></p><br/>
+                    <p><button id="createGroupBtn" class="btn btn-primary" type="button">Create Group</button></p><br/>
+            </div>
+            <div class="form-group mb-3" style="width: 35%; background: #c2c2c2; padding: 10px; margin: 10px; border: 2px solid #000">
+                <h4>Update User Profile</h4>
+                <p><input id="group-id" type="text" class="form-control" placeholder="Group name" aria-label="Group name" aria-describedby="basic-addon2"></p><br/>
+                <p><input id="user-id" type="text" class="form-control" placeholder="Group members" aria-label="Group members" aria-describedby="basic-addon2"></p><br/>
+                <p><button id="updateProfileBtn" class="btn btn-primary" type="button">Update Profile</button></p><br/>
+        </div>
+        </form>
+        <script src="scripts/createuser.js"></script>
+    </body>
+</html>

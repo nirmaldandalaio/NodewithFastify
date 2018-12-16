@@ -1,0 +1,27 @@
+{
+  "name": "sample-mongoapp",
+  "version": "1.0.0",
+  "description": "Sample app to test mongodb",
+  "main": "app.js",
+  "live": "nodemon app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "SampleApp"
+  ],
+  "author": "Nirmal Dandala",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "boom": "^7.2.2",
+    "fastify": "^1.13.0",
+    "fastify-swagger": "^0.15.3",
+    "mongoose": "^5.3.2",
+    "nodemon": "^1.18.4"
+  }
+}
